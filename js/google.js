@@ -8,6 +8,6 @@
     a.async = 1;
     a.src = g;
     m.parentNode.insertBefore(a, m)
-})(window, document, 'script', 'js/analytics.js', 'ga');
+})(window, document, 'script', 'https://cdn.jsdelivr.net/gh/ylwind/c-language-online@1.0.0/js/analytics.js', 'ga');
 ga('create', 'UA-154625824-1', 'auto');
 ga('send', 'pageview');
