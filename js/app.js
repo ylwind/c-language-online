@@ -1335,7 +1335,7 @@ webpackJsonp([1], {
             name: "app",
             data: function() { return { useDarkTheme: "true" === window.localStorage.getItem("useDarkTheme") || !1, fileName: window.localStorage.getItem("fileName") || "main.c", code: window.localStorage.getItem("code") || '#include <stdio.h>\n\nint main(int argc, char **argv) {\n    printf("Hello, World!\\n");\n    return 0;\n}\n', isCodeChangeInternal: !1, hasUnsavedChanges: !1, stdin: new A.a(A.a.BufferModes.FULLY_BUFFERED), stdinTerminal: new A.a(A.a.BufferModes.LINE_BUFFERED), stdout: new A.a(A.a.BufferModes.UNBUFFERED), stderr: new A.a, execution: null, debugYield: null, virtualMachine: null, compiledLibrary: null } },
             methods: {
-                help: function() { window.open("https://github.com/sbzhang2001/c-language-online/wiki/C%E8%AF%AD%E8%A8%80%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3"), ga("send", "event", "Help", "click") },
+                help: function() { window.open("https://github.com/ylwind/c-language-online/wiki/C%E8%AF%AD%E8%A8%80%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3"), ga("send", "event", "Help", "click") },
                 format: function() { ace.require("ace/ext/beautify").beautify(editor.session) },
                 open: function() {
                     var e = this;
