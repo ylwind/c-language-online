@@ -1481,7 +1481,7 @@ webpackJsonp([1], {
             },
             mounted: function() {
                 var e = this;
-                this.precompileLibrary(), l.a.bind("ctrl+o", function(t) { e.open(), t.preventDefault() }), l.a.bind("ctrl+s", function(t) { e.save(), t.preventDefault() }), l.a.bind("ctrl+f10", this.run), l.a.bind("ctrl+f9", this.debug), this.$refs.terminal.println(i.a.green(i.a.bold("Click ▶ to run the program...")))
+                this.precompileLibrary(), l.a.bind("ctrl+o", function(t) { e.open(), t.preventDefault() }), l.a.bind("ctrl+s", function(t) { e.save(), t.preventDefault() }), l.a.bind("ctrl+f10", this.run), l.a.bind("ctrl+f9", this.debug), this.$refs.terminal.println(i.a.green(i.a.bold("Hosted by github, CDN by jsdelivr!"))),this.$refs.terminal.println(i.a.green(i.a.bold("Click ▶ to run the program...")))
             },
             beforeDestroy: function() { l.a.reset() },
             components: { AppBar: f.a, EditorView: d.a, DebugView: y.a, TerminalView: b.a }
